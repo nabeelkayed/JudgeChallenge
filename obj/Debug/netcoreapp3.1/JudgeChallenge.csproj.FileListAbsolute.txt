@@ -1,0 +1,14 @@
+C:\Users\hp\source\repos\JudgeChallenge\bin\Debug\netcoreapp3.1\JudgeChallenge.exe
+C:\Users\hp\source\repos\JudgeChallenge\bin\Debug\netcoreapp3.1\JudgeChallenge.deps.json
+C:\Users\hp\source\repos\JudgeChallenge\bin\Debug\netcoreapp3.1\JudgeChallenge.runtimeconfig.json
+C:\Users\hp\source\repos\JudgeChallenge\bin\Debug\netcoreapp3.1\JudgeChallenge.runtimeconfig.dev.json
+C:\Users\hp\source\repos\JudgeChallenge\bin\Debug\netcoreapp3.1\JudgeChallenge.dll
+C:\Users\hp\source\repos\JudgeChallenge\bin\Debug\netcoreapp3.1\JudgeChallenge.pdb
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.AssemblyInfo.cs
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.dll
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.pdb
+C:\Users\hp\source\repos\JudgeChallenge\obj\Debug\netcoreapp3.1\JudgeChallenge.genruntimeconfig.cache
