@@ -38,24 +38,23 @@ namespace JudgeChallenge
     {
         public static int findJudge(int N, int[,] trust)
         {
-            List<int> notJuge = new List<int>();
-            int mayBeJuge = 0;
-            List<int> NRange = Enumerable.Range(1, N).ToList();
+            List<int> mayBeJudge = Enumerable.Repeat(0, N+1).ToList();
+            int Judge = 0;
 
             //write your solution here 
 
             for (int i = 0; i < trust.GetLength(0); i++)
             {
-                notJuge.Add(trust[i, 0]);
+                mayBeJudge[trust[i, 1]] ++;
             }
 
-            for (int i = 1; i <= N; i++)
+            for (int i = 1; i < mayBeJudge.Count; i++)
             {
-                if (!notJuge.Contains(i))
+                if (mayBeJudge[i] == N-1)
                 {
-                    if (mayBeJuge == 0)
+                    if (Judge == 0)
                     {
-                        mayBeJuge = i;
+                        Judge = i;
                     }
                     else
                     {
@@ -66,20 +65,12 @@ namespace JudgeChallenge
 
             for (int i = 0; i < trust.GetLength(0); i++)
             {
-                if (trust[i, 1] == mayBeJuge)
+                if (trust[i, 0] == Judge)
                 {
-                    NRange.Remove(trust[i, 0]);
+                    return -1;
                 }
             }
-
-            if (NRange.Count == 1 && NRange[0] == mayBeJuge)
-            {
-                return mayBeJuge;
-            }
-            else
-            {
-                return -1;
-            }
+            return Judge;
 
         }
 
